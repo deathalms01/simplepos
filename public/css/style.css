@@ -1,0 +1,188 @@
+nav navbar-nav li{
+  margin-top: 5px;
+  background-color: red;
+}
+
+#addItemModalButton {
+  float:right;
+}
+
+.thumb-small{
+  height:30px;
+  border-radius:50%
+}
+
+.thumb-small-50{
+  height:135px;
+  object-fit: cover;
+  border-radius: 5%
+}
+
+.thumb-medium{
+  height:250px;
+  border-radius:10%;
+  margin-bottom: 50px;
+}
+
+.float-right{
+  float:right;
+}
+
+.orderNav{
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.orderNav a{
+  text-decoration: none;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-color: #DDDDDD;
+  background: #F5F5F5;
+  padding: 15px;
+  color: #7F7983;
+  font-size: 1.2em;
+}
+
+.orderNav a:first-child{
+  border-top-left-radius: 10px;
+}
+
+.orderNav a:last-child{
+  border-top-right-radius: 10px;
+}
+
+.orderNav a:not(:first-child){
+  margin-left: -5px;
+}
+
+.orderNav a:hover{
+  background-color: #fff;
+  text-decoration: none;
+  color: #337AB7;
+}
+
+.orderNav .active{
+  background-color: #337AB7;
+  text-decoration: none;
+  color: #F5F5F5;
+
+}
+
+.orderBody{
+  border: 1px solid;
+  height: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-color: #DDDDDD;
+  padding-top: 15px;
+}
+
+.orderOrderList{
+  margin-top: 10px;
+  border-radius: 10px !important;
+}
+
+.orderOrderList .title{
+  font-size: 1.2em;
+}
+
+.orderOrderList .panel-heading{
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+main.ng-enter.ng-enter-active {
+  opacity:1;
+}
+
+.custom-nav {
+  margin-top: 10px;
+}
+.custom-nav a{
+  text-decoration: none;
+  color: #2F4F4F;
+  font-size: 1.5em;
+}
+
+.custom-nav a:hover{
+  text-decoration: none;
+}
+
+.orderCoupon{
+  margin-top: 50px;
+}
+
+.orderProceed{
+  margin-top: 15px;
+}
+
+.orderProceed button{
+  width: 100%;
+}
+
+.orderTable {
+  font-size: 1.25em;
+  border-bottom: 2px solid #DDDDDD;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.header-big{
+  font-size: 1.4em;
+}
+
+.body-big{
+  font-size: 1.2em;
+}
+
+.orderTable{
+  width: 100%;
+  border:none;
+}
+
+.orderTable th{
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.orderTable .bordered{
+  border-top: 2px solid #DDDDDD;
+}
+
+.orderTable td{
+  font-size: 0.85em;
+  padding: 5px;
+}
+
+.homeContent p  {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1.35em;
+}
+
+.homeContent a  {
+  text-decoration: none;
+  color: #333368;
+}
+
+.welcome{
+  /* background-image:url({{ asset('img/app/clip.png') }}); */
+  background-image: url('/img/app/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.font-black{
+  margin-top: -20%;
+}
+
+.font-black a{
+  color: #020102;
+  text-decoration: none;
+  font-size: 5em;
+  font-weight: bold;
+  margin-top: -50px;
+}
